@@ -7,11 +7,13 @@ import { StockComponent } from './stock/stock.component';
 import { StockService } from './share/stock.service';
 import { Stock2Component } from './stock2/stock2.component';
 import { LoggerService } from './share/logger/logger.service';
+import { ObservableComponent } from './observable/observable.component';
 @NgModule({
   declarations: [
     AppComponent,
     StockComponent,
-    Stock2Component
+    Stock2Component,
+    ObservableComponent
   ],
   imports: [
   BrowserModule,
